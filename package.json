@@ -1,27 +1,19 @@
 {
-  "name": "lucaserkana-backend",
+  "name": "current-project",
   "version": "1.0.0",
-  "description": "I have built a REST API using Node.js, Express, and MongoDB. The API follows RESTful principles and provides efficient data manipulation operations, such as CRUD functionality. I have integrated MongoDB for flexible schema and efficient data storage. This project showcases my proficiency in building robust backend systems using Node.js, Express, and MongoDB.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "devstart": "nodemon server.js"
+    "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lucas-Erkana/LucasErkana-Backend.git"
-  },
-  "author": "Lucas Erkana",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Lucas-Erkana/LucasErkana-Backend/issues"
-  },
-  "homepage": "https://github.com/Lucas-Erkana/LucasErkana-Backend#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.5.0"
+    "express": "^4.16.4",
+    "mongoose": "^5.5.7"
   },
   "devDependencies": {
-    "dotenv": "^16.3.1",
-    "nodemon": "^3.0.1"
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.0"
   }
 }
